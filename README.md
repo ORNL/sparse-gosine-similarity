@@ -28,7 +28,9 @@ Assuming you already have Go installed you can also install `gopy` manually by d
 ```sh
 python3 -m pip install pybindgen
 go get golang.org/x/tools/cmd/goimports
+go install golang.org/x/tools/cmd/goimports
 go get github.com/go-python/gopy
+go install github.com/go-python/gopy
 python3 -m pip install --upgrade setuptools wheel
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
 ```
